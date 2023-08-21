@@ -1,5 +1,5 @@
 {
-    "name": "stfalcon/tinymce-bundle",
+    "name": "nrobelin/tinymce-bundle",
     "description": "This Bundle integrates TinyMCE WYSIWYG editor into a Symfony2 project.",
     "keywords": ["wysiwyg", "tinymce", "editor", "symfony2", "bundle"],
     "type": "symfony-bundle",
@@ -20,10 +20,6 @@
             "homepage": "https://github.com/stfalcon/TinymceBundle/contributors"
         }
     ],
-    "support": {
-        "email": "logansoleg@gmail.com",
-        "issues": "https://github.com/stfalcon/TinymceBundle/issues"
-    },
     "require": {
         "php": "^7.2.5|^8.0",
         "symfony/framework-bundle": "^5.0|^6.0",
@@ -34,10 +30,5 @@
             "Stfalcon\\Bundle\\TinymceBundle": ""
         }
     },
-    "target-dir" : "Stfalcon/Bundle/TinymceBundle",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.x-dev"
-        }
-    }
+    "target-dir" : "Stfalcon/Bundle/TinymceBundle"
 }
